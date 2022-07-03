@@ -78,7 +78,7 @@ console.log(data[0].length);
 let a = 1;
 for (var i = 0; i < data[0].length; i++) {
 	const main = document.getElementById("main");
-	if (data[0][0].categoria) {
+	if (data[0][0].categoria == "Anillos") {
 		main.innerHTML += 
 			`<div class="hover ordenar-altura" value="producto${a}${i+1}" id="fotos">
 				<div class="slider" id="fotos">
