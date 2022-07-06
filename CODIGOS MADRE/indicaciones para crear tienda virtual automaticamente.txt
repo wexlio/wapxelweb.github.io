@@ -1,0 +1,19 @@
+PASOS PARA CREAR TIENDA VIRTUAL DESDE 0:
+
+0. Crear un carpeta madre en la cual pegaras los archivos madre, ademas la carpeta de todas las imagenes de tu tienda virtual incluido productos, logo, formas de pago, etc.
+
+1. Llenar el excel correctamente tomando en cuenta que no se subira ninguna imagen solo los nombres de las imagenes y en los espacios vacios rellenar con una letra "q".
+
+	1.1 Para subir las imagenes correctamente debes entrar al google sheets (https://docs.google.com/spreadsheets/d/18fO7iU5VIwNT_tGsk2BE4Hm2RZKHx4nhu4PWusVw-hU/edit?usp=sharing) y entrar a la estaña "IMG-PARA-COPIAR" luego copiar el id de la carpeta donde se encuentran tus imagenes, previamente subidas a una carpeta de drive, en la celda "A1", luego presionar el boton "imagenes con la cara del robot" y luego presionar "obtener imagenes on la carita con lentes" de esa forma se bajaran las imagenes de manera automatica con los nombres y podras coiar y pegar donde corresponda.
+
+2. Tomar en cuenta que al momento de rellenar el excel que los nimbres de las categorias deben coincidir en la pestaña productos y en la pestaña categorias.
+
+3. Una vez rellenado el excel correctamente usar la aplicacion "subirExcel.html" para subir el excel.
+
+4. Cuando estes en "subirExcel.html" presiona seleccionar archivo y seleccionas el excel que has rellenado previamente.
+
+5. Luego de haber seleccinado el excel resionas el boton "cargar", de inmediato deberian mostrarse al final de la pantalla letras de un objeto cargado.
+
+6. Una vez aparecen esas letras del objeto cargado presionas el boton "Exportar", automaticamente se descargara un archivo llamado "ejemplo.txt" el cual debes guardar en la carpeta madre.
+
+7. Si seguiste todos los pasos anteriores tu tienda virtual ya esta lista para subir a cualquier sevidor.
